@@ -1,28 +1,30 @@
 #include <iostream>
 /*
-Iostream é uma biblioteca
+Iostream Ã© uma biblioteca
 I - Vem de Input - Entrada
-O - Vem de Output - Saída
+O - Vem de Output - SaÃ­da
 */
 
 #include <locale.h> //Para usarmos acentos
 
 /*
 Importando todos os identificadores do NameSpace STD para usar o cout e endl
-O Namespace é nada mais nada menos que uma organização de pastas
+O Namespace Ã© nada mais nada menos que uma organizaÃ§Ã£o de pastas
 */
 using namespace std;
 
 /*
-Todo o programa em C++ tem uma e somente uma função principal que é a função MAIN
+Todo o programa em C++ tem uma e somente uma funÃ§Ã£o principal que Ã© a funÃ§Ã£o MAIN
 */
 
 int main () { 
-      
+     //Para usarmos acentos 
      setlocale(LC_ALL, "");
-     cout << "Olá, Mundo! \n"; 
+     //Imprimir na tela
+     cout << "OlÃ¡, Mundo! \n"; 
      
      cout << "Eu sou a Daniela Salgado e vou dominar essa linguagem! " << endl;
-//A função main diz que retornar um inteiro, então colocamos o 0 como tipo retorno
+//A funÃ§Ã£o main diz que retornar um inteiro, entÃ£o colocamos o 0 como tipo retorno
      return 0;
 }
+
